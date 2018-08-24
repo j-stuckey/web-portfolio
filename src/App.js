@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-import styles from './styles/app.css';
-class App extends Component {
-  render() {
-    return (
-        <React.Fragment>
-            
-            <header>
-                <nav>
-                    <button className={styles.button}>Home</button>
-                </nav>
-            </header>
+import NavBar from './nav';
 
-        </React.Fragment>
+class App extends Component {
+
+  render() {
+
+    return (
+        <div>
+
+            <NavBar />
+
+        </div>
     );
   }
 }
