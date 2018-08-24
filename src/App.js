@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import styles from './styles/app.css';
 class App extends Component {
   render() {
     return (
@@ -7,7 +7,7 @@ class App extends Component {
             
             <header>
                 <nav>
-                    <button>Home</button>
+                    <button className={styles.button}>Home</button>
                 </nav>
             </header>
 
