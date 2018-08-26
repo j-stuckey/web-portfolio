@@ -1,12 +1,17 @@
 import React from 'react';
-import styles from './styles/nav.css';
 
-export default function NavBar(props) {
-    return (
-        <nav className={styles.background}>
-            <button className={styles.button}>Home</button>
-            <button className={styles.button}>Projects</button>
-            <button className={styles.button}>Contact</button>
-        </nav>
-    );
+export default class NavBar extends React.Component {
+    navButton(){
+        console.log('button pressed');
+    }
+
+    render() {
+        return (
+            <nav>
+                <button onClick={() => this.navButton()}>Home</button>
+                <button>Projects</button>
+                <button>Contact Me</button>
+            </nav>
+        );
+    }
 }
