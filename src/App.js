@@ -1,17 +1,27 @@
 import React, { Component } from 'react';
 import NavBar from './nav';
-import styles from './styles/app.css';
+import Projects from './projects';
+import ContactForm from './contact';
+import About from './about';
+import { Route } from 'react-router';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 class App extends Component {
 
   render() {
 
     return (
-        <div className={styles.background}>
+        
+            <Router>
+                <React.Fragment>
 
-            <NavBar />
+                    <Route path="/" component={NavBar} />
+                    <Route exact path="/projects" component={Projects}/>
+                    <Route exact path="/aboutme" component={About} />
+                    <Route exact path="/contact" component={ContactForm}/>
+                </React.Fragment>
 
-        </div>
+            </Router>
     );
   }
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default class NavBar extends React.Component {
     navButton(){
@@ -8,9 +9,10 @@ export default class NavBar extends React.Component {
     render() {
         return (
             <nav>
-                <button onClick={() => this.navButton()}>Home</button>
-                <button>Projects</button>
-                <button>Contact Me</button>
+                <Link to="/">Home</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/contact">Contact Me</Link>
             </nav>
         );
     }
