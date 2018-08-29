@@ -4,7 +4,7 @@ import styles from './styles/projects.css';
 
 export default function Projects(props) {
     return (
-        <main>
+        <main className={styles.container}>
 
             <ProjectCard name={"Project 1"}/>
 
