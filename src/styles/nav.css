@@ -6,6 +6,8 @@
 }
 
 .navbar a {
+    width: 50%;
+    text-align: center;
     color: white;
     padding: 1.3em 3em;
     text-decoration: none;
