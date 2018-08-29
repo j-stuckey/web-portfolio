@@ -1,0 +1,17 @@
+.footer {
+    background-color: #256497;
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+}
+
+.footer a {
+    color: white;
+    padding: 1.3em 2em;
+    text-decoration: none;
+    border-radius: 3px;
+}
