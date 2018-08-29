@@ -14,5 +14,7 @@
 
 .navbar a:hover {
     background-color: red;
-
+    color: black;
+    font-style: italic;
+    font-weight: bold;
 }
