@@ -10,6 +10,8 @@
 }
 
 .footer a {
+    width: 50%;
+    text-align: center;
     color: white;
     padding: 1.3em 2em;
     text-decoration: none;
