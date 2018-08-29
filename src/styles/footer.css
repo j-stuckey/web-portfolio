@@ -15,3 +15,10 @@
     text-decoration: none;
     border-radius: 3px;
 }
+
+.footer a:hover {
+    background-color: red;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
