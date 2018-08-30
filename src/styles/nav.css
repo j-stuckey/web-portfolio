@@ -1,11 +1,12 @@
 .navbar {
-    background-color: #256497;
+    background-color: #083F5D;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .navbar a {
+    font-family: 'PT Serif', serif;
     width: 50%;
     text-align: center;
     color: white;
@@ -15,8 +16,7 @@
 }
 
 .navbar a:hover {
-    background-color: red;
-    color: black;
+    /* background-color: #0b2b46;
     font-style: italic;
-    font-weight: bold;
+    font-weight: bold; */
 }
