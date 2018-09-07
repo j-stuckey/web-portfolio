@@ -12,6 +12,8 @@ export default class NavBar extends React.Component {
             <nav className={styles.navbar} >
                 <Link to="/">Home</Link>
                 <Link to="/projects">Projects</Link>
+                <Link to="/aboutme">About me</Link>
+                <Link to="/contact">Contact me</Link>
             </nav>
         );
     }
