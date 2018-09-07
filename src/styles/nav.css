@@ -1,9 +1,21 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     padding: 20px;
     flex-flow: wrap;
+}
+
+.name {
+    font-family: 'Amiri', serif;
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+.name:hover {
+    text-decoration: underline;
 }
 
 .navbar a {
