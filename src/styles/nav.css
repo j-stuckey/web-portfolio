@@ -1,16 +1,14 @@
-/* .navbar {
-    background-color: #083F5D;
+.navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-flow: wrap;
 }
 
 .navbar a {
-    font-family: 'PT Serif', serif;
-    width: 50%;
-    text-align: center;
-    color: white;
-    padding: 1.3em 3em;
+    font-family: 'Asar', serif;
     text-decoration: none;
-    border-radius: 3px;
-} */
+    color: black;
+    margin: 0 auto;
+}
