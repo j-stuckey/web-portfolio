@@ -1,6 +1,11 @@
 import React from 'react';
+import styles from './styles/about.css';
 
 export default function About(props){
 
-    return <h1>About Me</h1>;
+    return (
+        <section className={styles.section}>
+            <h3>Under construction...</h3>
+        </section>
+    );
 }

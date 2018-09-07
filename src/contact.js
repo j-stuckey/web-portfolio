@@ -1,6 +1,11 @@
 import React from 'react';
+import styles from './styles/contact.css';
 
 export default function ContactForm(props) {
 
-    return <h1>Contact Me:</h1>;
+    return (
+        <section className={styles.section}>
+            <h3>Under construction...</h3>
+        </section>
+    );
 }
