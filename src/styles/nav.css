@@ -7,8 +7,23 @@
 }
 
 .navbar a {
-    font-family: 'Asar', serif;
+    font-family: 'Amiri', serif;
     text-decoration: none;
     color: black;
     margin: 0 auto;
+    font-size: 1.1em;
 }
+
+.navbar a:hover {
+    border-bottom: 1px solid black;
+    font-style: italic;
+}
+
+/* @media only screen and (min-width: 1000px) {
+    .navbar a {
+        font-family: 'Asar', serif;
+        text-decoration: none;
+        color: black;
+        margin: 0 auto;
+    }
+} */
