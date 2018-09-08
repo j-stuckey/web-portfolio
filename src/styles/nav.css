@@ -5,22 +5,28 @@
     flex-flow: wrap;
     /* background-color: #1f4792; */
     padding: 20px;
-    width: 40%;
+    /* width: 40%; */
     margin: auto;
 }
+
 .line {
     border: 1px solid black;
     width: 30%;
-    margin: 5px auto;
+    margin: 20px auto;
 }
+
 .name {
     font-family: 'Amiri', serif;
     text-decoration: none;
     color: black;
     font-size: 2em;
     display: flex;
+    position: fixed;
+    left: 0;
     justify-content: center;
+    /* margin: 20px auto; */
 }
+
 .name:hover {
     text-decoration: underline;
 }
@@ -28,7 +34,7 @@
 .navbar a {
     font-family: 'Amiri', serif;
     text-decoration: none;
-    color: black;
+    color: rgb(168, 168, 158);
     margin: 0 20px;
     font-size: 1.1em;
 }

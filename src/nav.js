@@ -10,15 +10,12 @@ export default class NavBar extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Link to="/" className={styles.name}>
-                    James Stuckey
-                </Link>
                 <nav className={styles.navbar}>
+                    <Link to="/">Home</Link>
                     <Link to="/projects">Work</Link>
                     <Link to="/aboutme">About me</Link>
                     <Link to="/contact">Contact me</Link>
                 </nav>
-                <div className={styles.line} />
             </React.Fragment>
         );
     }
