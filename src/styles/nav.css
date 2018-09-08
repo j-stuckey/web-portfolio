@@ -2,9 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
     flex-flow: wrap;
-    background-color: #1f4792;
+    /* background-color: #1f4792; */
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 3px;
+    padding: 20px;
     width: 40%;
     margin: auto;
 }
@@ -24,7 +27,7 @@
 .navbar a {
     font-family: 'Amiri', serif;
     text-decoration: none;
-    color: rgb(162, 165, 158);
+    color: black;
     margin: 0 20px;
     font-size: 1.1em;
 }
