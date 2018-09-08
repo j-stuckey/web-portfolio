@@ -1,9 +1,13 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 20px;
     flex-flow: wrap;
+    
+    background-color: #1f4792;
+    width: 40%;
+    margin: auto;
 }
 
 .name {
@@ -21,13 +25,13 @@
 .navbar a {
     font-family: 'Amiri', serif;
     text-decoration: none;
-    color: black;
-    margin: 0 auto;
+    color: rgb(162, 165, 158);
+    margin: 0 20px;
     font-size: 1.1em;
 }
 
 .navbar a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(122, 132, 139);
     font-style: italic;
 }
 
