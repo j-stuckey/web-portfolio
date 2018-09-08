@@ -11,7 +11,8 @@ export default class NavBar extends React.Component {
         return (
             <React.Fragment>
                 <nav className={styles.navbar}>
-                    <Link to="/">Home</Link>
+                    <h3 className={styles.name}>James Stuckey</h3>
+                    {/* <Link to="/">Home</Link> */}
                     <Link to="/projects">Work</Link>
                     <Link to="/aboutme">About me</Link>
                     <Link to="/contact">Contact me</Link>

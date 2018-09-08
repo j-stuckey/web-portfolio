@@ -3,52 +3,40 @@
     align-items: center;
     justify-content: center;
     flex-flow: wrap;
-    /* background-color: #1f4792; */
-    padding: 20px;
-    /* width: 40%; */
-    margin: auto;
-}
-
-.line {
-    border: 1px solid black;
-    width: 30%;
-    margin: 20px auto;
+    
+    /* flex-direction: column; */
+    /* padding: 20px 20px; */
+    margin: 0 auto;
 }
 
 .name {
-    font-family: 'Amiri', serif;
-    text-decoration: none;
-    color: black;
+    color: white;
     font-size: 2em;
-    display: flex;
-    position: fixed;
-    left: 0;
-    justify-content: center;
-    /* margin: 20px auto; */
-}
-
-.name:hover {
-    text-decoration: underline;
+    font-family: 'Dosis', sans-serif;
+    /* margin-right: 50%; */
+    margin: 20px;
 }
 
 .navbar a {
-    font-family: 'Amiri', serif;
+    font-family: 'Dosis', sans-serif;
     text-decoration: none;
-    color: rgb(168, 168, 158);
-    margin: 0 20px;
+    /* color: rgb(168, 168, 158); */
+    color: white;
+    margin: 10px 20px;
     font-size: 1.1em;
 }
 
 .navbar a:hover {
-    border-bottom: 0.5px solid black;
+    border-bottom: 1px solid black;
     font-style: italic;
 }
 
-/* @media only screen and (min-width: 1000px) {
-    .navbar a {
-        font-family: 'Asar', serif;
-        text-decoration: none;
-        color: black;
-        margin: 0 auto;
+@media only screen and (min-width: 600px) {
+    .navbar {
+        justify-content: flex-end;
     }
-} */
+
+    .name {
+        margin-right: 60%;
+    }
+}
