@@ -18,6 +18,7 @@ export default class NavBar extends React.Component {
                     <Link to="/aboutme">About me</Link>
                     <Link to="/contact">Contact me</Link>
                 </nav>
+                <div className={styles.line} />
             </React.Fragment>
         );
     }
