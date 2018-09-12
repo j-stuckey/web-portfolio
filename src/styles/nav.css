@@ -3,9 +3,6 @@
     align-items: center;
     justify-content: center;
     flex-flow: wrap;
-    
-    /* flex-direction: column; */
-    /* padding: 20px 20px; */
     margin: 0 auto;
 }
 
@@ -13,14 +10,12 @@
     color: white;
     font-size: 2em;
     font-family: 'Dosis', sans-serif;
-    /* margin-right: 50%; */
     margin: 20px;
 }
 
 .navbar a {
     font-family: 'Dosis', sans-serif;
     text-decoration: none;
-    /* color: rgb(168, 168, 158); */
     color: white;
     margin: 10px 20px;
     font-size: 1.1em;
