@@ -39,7 +39,7 @@ export default function Projects(props) {
                 </div>
                 <a href={"https://hearbuds-client.firebaseapp.com/"} target="_blank">Live App</a>
                 <a href={"https://github.com/thinkful-ei21/hearbuds-client"} target="_blank">Github Repo</a>
-                <img />
+                <img/>
             </section>
 
             <section className={styles.card}>

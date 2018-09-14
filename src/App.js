@@ -18,6 +18,7 @@ class App extends Component {
                     <Route path="/" component={NavBar} />
                     <Route exact path="/projects" component={Projects}/>
                     <Route exact path="/aboutme" component={About} />
+                    <Route exact path="/" component={About} />
                     <Route exact path="/contact" component={ContactForm}/>
                 </React.Fragment>
                 
