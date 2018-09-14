@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import NavBar from './nav';
 import Projects from './projects';
 import ContactForm from './contact';
-import About from './about';
+import LandingPage from './landing-page';
 import { Route } from 'react-router';
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -16,9 +16,9 @@ class App extends Component {
                 <React.Fragment>
 
                     <Route path="/" component={NavBar} />
+                    <Route exact path="/" component={LandingPage} />
                     <Route exact path="/projects" component={Projects}/>
-                    <Route exact path="/aboutme" component={About} />
-                    <Route exact path="/" component={About} />
+                    
                     <Route exact path="/contact" component={ContactForm}/>
                 </React.Fragment>
                 

@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './styles/about.css';
+import styles from './styles/landing-page.css';
 
-export default function About(props){
+export default function LandingPage(props){
 
     return (
         <section>
