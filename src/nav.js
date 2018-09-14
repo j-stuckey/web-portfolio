@@ -10,7 +10,7 @@ export default class NavBar extends React.Component {
                     <Link to="/" className={styles.name} id={"name"}>
                         James Stuckey
                     </Link>
-                    
+                        
                     <Link to="/projects">Projects</Link>
                     <Link to="/aboutme">About me</Link>
                     <Link to="/contact">Contact me</Link>

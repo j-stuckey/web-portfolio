@@ -86,7 +86,6 @@
 .tech {
     display: flex;
     justify-content: center;
-
     flex-flow: wrap;
     margin: 10px auto;
 }
