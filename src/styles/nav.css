@@ -15,8 +15,9 @@
 
 
 .navbar a:hover {
-    color: rgb(58, 115, 119);
-    border: 1px solid white;
+    background-color: rgb(58, 115, 119);
+    border: 1px solid black;
+    border-radius: 3px;
     font-style: italic;
 }
 
