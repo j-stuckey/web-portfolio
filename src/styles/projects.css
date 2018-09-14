@@ -94,3 +94,7 @@
 .tech li {
     margin: 10px 20px;
 }
+
+.italic {
+    font-style: italic;
+}

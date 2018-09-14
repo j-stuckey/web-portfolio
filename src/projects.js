@@ -19,6 +19,7 @@ export default function Projects(props) {
                     this application because we love music and wanted to 
                     have an ear to the music scene and make it easier for others.</p>
 
+                <img src="https://github.com/thinkful-ei21/hearbuds-client/raw/master/screenshots/desktop-dashboard.png"/>
                 <h5 className={styles.header}>Tech Stack</h5>
 
                 <ul className={styles.tech}>
@@ -39,7 +40,6 @@ export default function Projects(props) {
                 </div>
                 <a href={"https://hearbuds-client.firebaseapp.com/"} target="_blank">Live App</a>
                 <a href={"https://github.com/thinkful-ei21/hearbuds-client"} target="_blank">Github Repo</a>
-                <img/>
             </section>
 
             <section className={styles.card}>
@@ -50,8 +50,13 @@ export default function Projects(props) {
 
                 <p>Can't find the right words? Use Emojis instead! 
                     This app improves your emoji vocabulary so that you
-                    can write less and say more!
+                    can write less and say more! This app was built 
+                    originally to help us understand a learning technique called
+                    <span className={styles.italic}> Spaced Repetition</span>
+                     and how to implement the algorithm.
                 </p>
+
+                <img src="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client/blob/master/src/images/readmeImgs/emoji-desktop.png?raw=true"/>
 
                 <h5 className={styles.header}>Tech Stack</h5>
 
@@ -76,7 +81,6 @@ export default function Projects(props) {
 
                 <a href="https://spacedrep-client.herokuapp.com/" target="_blank">Live App</a>
                 <a href="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client" target="_blank">Github Repo</a>
-                <img />
             </section>
 
             <section className={styles.card}>
@@ -84,6 +88,21 @@ export default function Projects(props) {
                     <h3 className={styles.title}>Movie Surfer</h3>
                     <h4 className={styles.role}>Full Stack Developer</h4>
                 </header>
+
+                <img src="https://github.com/thinkful-ei21/james-capstone-client/raw/master/images/search.png"/>
+
+                <h5 className={styles.header}>Tech Stack:</h5>
+
+                <ul className={styles.tech}>
+                    <li>HTML5, CSS3, Javascript</li>
+                    <li>React and Redux</li>
+                    <li>Express</li>
+                    <li>NodeJS</li>
+                    <li>MongoDB</li>
+                    <li>Mongoose</li>
+                    <li>JSON Web Token</li>
+                    <li>Passport Authentication</li>
+                </ul>
 
                 <div className={styles.demo}>
 
@@ -94,7 +113,6 @@ export default function Projects(props) {
 
                 <a href="https://spacedrep-client.herokuapp.com/" target="_blank">Live App</a>
                 <a href="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client" target="_blank">Github Repo</a>
-                <img />
 
             </section>
         </main>
