@@ -19,7 +19,9 @@ export default function Projects(props) {
                     this application because we love music and wanted to 
                     have an ear to the music scene and make it easier for others.</p>
 
+                <div className={styles.divider}/>
                 <img src="https://github.com/thinkful-ei21/hearbuds-client/raw/master/screenshots/desktop-dashboard.png"/>
+
                 <h5 className={styles.header}>Tech Stack</h5>
 
                 <ul className={styles.tech}>
@@ -56,6 +58,7 @@ export default function Projects(props) {
                      and how to implement the algorithm.
                 </p>
 
+                <div className={styles.divider}/>
                 <img src="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client/blob/master/src/images/readmeImgs/emoji-desktop.png?raw=true"/>
 
                 <h5 className={styles.header}>Tech Stack</h5>
@@ -88,6 +91,12 @@ export default function Projects(props) {
                     <h3 className={styles.title}>Movie Surfer</h3>
                     <h4 className={styles.role}>Full Stack Developer</h4>
                 </header>
+
+                <p>
+                    This was my first full stack project using React/Redux and Node.
+                    The app allows users to search a movie database,
+                    and categorize movies and tv shows into lists. 
+                </p>
 
                 <img src="https://github.com/thinkful-ei21/james-capstone-client/raw/master/images/search.png"/>
 

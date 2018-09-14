@@ -62,7 +62,7 @@
 }
 
 .card p {
-    margin: 10px 10px;
+    margin: 20px 10px;
     text-align: center;
 }
 
@@ -97,4 +97,10 @@
 
 .italic {
     font-style: italic;
+}
+
+.divider {
+    border: 1px solid white;
+    width: 50%;
+    margin: 0 auto;
 }
