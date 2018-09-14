@@ -58,6 +58,7 @@
 .card a:hover {
     /* background: rgb(22, 50, 51); */
     font-style: italic;
+    box-shadow: 2px 2px 10px gray;
 }
 
 .card p {
