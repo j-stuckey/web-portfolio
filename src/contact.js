@@ -5,7 +5,16 @@ export default function ContactForm(props) {
 
     return (
         <section className={styles.section}>
-            <h3>Under construction...</h3>
+
+            <h5 className={styles.title}>Contact me</h5>
+
+            <div className={styles.box}>
+
+                <a href="mailto:example@email.com" className={styles.email} target="_blank">Email</a>
+                <a href="mailto:example@email.com" className={styles.email} target="_blank">Github</a>
+                <a href="mailto:example@email.com" className={styles.email} target="_blank">LinkedIn</a>
+                <a href="mailto:example@email.com" className={styles.email} target="_blank">Resume</a>
+            </div>
         </section>
     );
 }
