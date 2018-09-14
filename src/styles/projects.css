@@ -74,3 +74,23 @@
     margin: 20px auto;
     padding: 20px;
 }
+
+
+.header {
+    background-color: rgb(58, 115, 119);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.tech {
+    display: flex;
+    justify-content: center;
+
+    flex-flow: wrap;
+    margin: 10px auto;
+}
+
+.tech li {
+    margin: 10px 20px;
+}
