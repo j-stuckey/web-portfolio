@@ -8,7 +8,7 @@ export default function Projects(props) {
             <section className={styles.card}>
 
                 <h3 className={styles.title}>Hearbuds</h3>
-                <h4 className={styles.role}>Front-end</h4>
+                <h4 className={styles.role}>Front-end Developer</h4>
 
                 <p>Hearbuds allows users to find concerts in their area and find people to go with.</p>
                 <a href={"https://hearbuds-client.firebaseapp.com/"} target="_blank">Live App</a>
@@ -18,6 +18,8 @@ export default function Projects(props) {
 
             <section className={styles.card}>
                 <h3 className={styles.title}>Learn Emojis</h3>
+                <h4 className={styles.role}>Full Stack Developer</h4>
+
                 <p>Can't find the right words? Use Emojis instead! 
                     This app improves your emoji vocabulary so that you
                     can write less and say more!
