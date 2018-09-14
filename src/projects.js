@@ -24,7 +24,7 @@ export default function Projects(props) {
                     This app improves your emoji vocabulary so that you
                     can write less and say more!
                 </p>
-                <a href="https://spacedrep-client.herokuapp.com/">Live App</a>
+                <a href="https://spacedrep-client.herokuapp.com/" target="_blank">Live App</a>
                 <a href="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client" target="_blank">Github Repo</a>
                 <img />
             </section>
