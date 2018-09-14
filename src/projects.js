@@ -35,9 +35,13 @@ export default function Projects(props) {
                     This app improves your emoji vocabulary so that you
                     can write less and say more!
                 </p>
-                <p>Demo login info:</p>
-                <p>Username: demouser1</p>
-                <p>Password: password123</p>
+
+                <div className={styles.demo}>
+
+                    <p>Demo login info:</p>
+                    <p>Username: demouser1</p>
+                    <p>Password: password123</p>
+                </div>
 
                 <a href="https://spacedrep-client.herokuapp.com/" target="_blank">Live App</a>
                 <a href="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client" target="_blank">Github Repo</a>
@@ -46,7 +50,19 @@ export default function Projects(props) {
 
             <section className={styles.card}>
                 <h3 className={styles.title}>Movie Surfer</h3>
+                <h4 className={styles.role}>Full Stack Developer</h4>
+
+                <div className={styles.demo}>
+
+                    <p>Demo login info:</p>
+                    <p>Username: demouser1</p>
+                    <p>Password: password123</p>
+                </div>
+
+                <a href="https://spacedrep-client.herokuapp.com/" target="_blank">Live App</a>
+                <a href="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client" target="_blank">Github Repo</a>
                 <img />
+
             </section>
         </main>
     );
