@@ -2,11 +2,10 @@
     display: flex;
     justify-content: flex-end;
     flex-flow: wrap;
-    font-family: 'Dosis', sans-serif;
 }
 
 .name {
-    /* font-size: 2em */
+    color: red;
 }
 
 .navbar a {

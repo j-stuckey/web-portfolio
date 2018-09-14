@@ -4,3 +4,23 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+.card {
+    max-width: 1000px;
+    margin: 2em auto;
+    padding: 20px;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.card img {
+    justify-content: center;
+    align-content: center;
+    padding: 5%;
+    width: 100%;
+}

@@ -7,7 +7,7 @@ export default class NavBar extends React.Component {
         return (
                 <nav className={styles.navbar} id={"navbar"}>
                     
-                    <Link to="/" className={styles.name}>
+                    <Link to="/" className={styles.name} id={"name"}>
                         James Stuckey
                     </Link>
                     

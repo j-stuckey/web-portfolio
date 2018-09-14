@@ -1,20 +1,24 @@
 import React from 'react';
-import ProjectCard from './project-card';
 import styles from './styles/projects.css';
 import msImage from './images/ms-image1.png';
 
 export default function Projects(props) {
     return (
         <main className={styles.container}>
-            <ProjectCard name={"Hearbuds"} />
+            <section className={styles.card}>
+                <h1 className={styles.title}>Hearbuds</h1>
+                <img />
+            </section>
 
-            <ProjectCard name={"Learn Emojis"} />
+            <section className={styles.card}>
+                <h1 className={styles.title}>Learn Emojis</h1>
+                <img />
+            </section>
 
-            <ProjectCard 
-                name={"Movie Surfer"}
-                src={msImage}
-                alt={"login page"}
-            />
+            <section className={styles.card}>
+                <h1 className={styles.title}>Movie Surfer</h1>
+                <img />
+            </section>
         </main>
     );
 }
