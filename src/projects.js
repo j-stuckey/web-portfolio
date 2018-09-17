@@ -13,11 +13,11 @@ export default function Projects(props) {
                 </header>
 
                 <p>Hearbuds allows users to find concerts in their area 
-                    and find people to go with. It's built for anyone who loves
-                    music and going to shows. It's built for people who want
-                    to connect to the music scene and their community. We built
-                    this application because we love music and wanted to 
-                    have an ear to the music scene and make it easier for others.</p>
+                    and find people to go with. The app is made for people
+                    who love live music and want to stay connected to the
+                    music scene in their area. We built this application 
+                    because we love music and wanted to have an ear to the
+                    music scene and make it easier for others.</p>
 
                 <div className={styles.divider}/>
                 <img src="https://github.com/thinkful-ei21/hearbuds-client/raw/master/screenshots/desktop-dashboard.png"/>
@@ -95,7 +95,9 @@ export default function Projects(props) {
                 <p>
                     This was my first full stack project using React/Redux and Node.
                     The app allows users to search a movie database,
-                    and categorize movies and tv shows into lists. 
+                    and categorize movies and tv shows into lists. I created this
+                    project because I had always wondered how movie applications
+                    gather and organize data. 
                 </p>
 
                 <img src="https://github.com/thinkful-ei21/james-capstone-client/raw/master/images/search.png"/>

@@ -18,23 +18,19 @@
 
 .text {
     position: absolute;
-    padding: 20px;
-    font-size: 4vw;
+    left: 10%;
+    right: 10%;
     background-color: rgb(58, 115, 119);
-    margin: 100px 20px;
+    margin: 100px 0;
     text-align: center;
     display: flex;
     flex-direction: column;
-    /* flex-flow: wrap; */
     justify-content: center;
     align-items: center;
     border: 1px solid black;
     border-radius: 3px;
     box-shadow: 5px 5px 5px gray;
-}
-
-.text p {
-    margin: 0 auto;
+    width: 80%;
 }
 
 .large {
