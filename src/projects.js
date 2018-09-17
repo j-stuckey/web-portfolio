@@ -120,7 +120,7 @@ export default function Projects(props) {
                     <p>Password: password123</p>
                 </div>
 
-                <a href="https://spacedrep-client.herokuapp.com/" target="_blank">Live App</a>
+                <a href="https://james-moviesurfer-client.herokuapp.com/" target="_blank">Live App</a>
                 <a href="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client" target="_blank">Github Repo</a>
 
             </section>
