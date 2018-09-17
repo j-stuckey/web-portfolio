@@ -54,8 +54,8 @@ export default function Projects(props) {
                     This app improves your emoji vocabulary so that you
                     can write less and say more! This app was built 
                     originally to help us understand a learning technique called
-                    <span className={styles.italic}> Spaced Repetition</span>
-                     and how to implement the algorithm.
+                    <span className={styles.italic}> Spaced Repetition </span>
+                    and how to implement the algorithm.
                 </p>
 
                 <div className={styles.divider}/>
