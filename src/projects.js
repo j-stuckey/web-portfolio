@@ -20,7 +20,9 @@ export default function Projects(props) {
                     music scene and make it easier for others.</p>
 
                 <div className={styles.divider}/>
-                <img src="https://github.com/thinkful-ei21/hearbuds-client/raw/master/screenshots/desktop-dashboard.png"/>
+                <a href="https://hearbuds-client.firebaseapp.com/">
+                    <img src="https://github.com/thinkful-ei21/hearbuds-client/raw/master/screenshots/desktop-dashboard.png"/>
+                </a>
 
                 <h5 className={styles.header}>Tech Stack</h5>
 
@@ -40,8 +42,8 @@ export default function Projects(props) {
                     <p>Username: demouser1</p>
                     <p>Password: password123</p>
                 </div>
-                <a href={"https://hearbuds-client.firebaseapp.com/"} target="_blank">Live App</a>
-                <a href={"https://github.com/thinkful-ei21/hearbuds-client"} target="_blank">Github Repo</a>
+                <a href={"https://hearbuds-client.firebaseapp.com/"} target="_blank" className={styles.button}>Live App</a>
+                <a href={"https://github.com/thinkful-ei21/hearbuds-client"} target="_blank" className={styles.button}>Github Repo</a>
             </section>
 
             <section className={styles.card}>
@@ -59,7 +61,9 @@ export default function Projects(props) {
                 </p>
 
                 <div className={styles.divider}/>
-                <img src="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client/blob/master/src/images/readmeImgs/emoji-desktop.png?raw=true"/>
+                <a href="https://spacedrep-client.herokuapp.com/">
+                    <img src="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client/blob/master/src/images/readmeImgs/emoji-desktop.png?raw=true"/>
+                </a>
 
                 <h5 className={styles.header}>Tech Stack</h5>
 
@@ -82,8 +86,8 @@ export default function Projects(props) {
                     <p>Password: password123</p>
                 </div>
 
-                <a href="https://spacedrep-client.herokuapp.com/" target="_blank">Live App</a>
-                <a href="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client" target="_blank">Github Repo</a>
+                <a href="https://spacedrep-client.herokuapp.com/" target="_blank" className={styles.button}>Live App</a>
+                <a href="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client" target="_blank" className={styles.button}>Github Repo</a>
             </section>
 
             <section className={styles.card}>
@@ -99,8 +103,9 @@ export default function Projects(props) {
                     project because I had always wondered how movie applications
                     gather and organize data. 
                 </p>
-
-                <img src="https://github.com/thinkful-ei21/james-capstone-client/raw/master/images/search.png"/>
+                <a href="https://james-moviesurfer-client.herokuapp.com/">
+                    <img src="https://github.com/thinkful-ei21/james-capstone-client/raw/master/images/search.png"/>
+                </a>
 
                 <h5 className={styles.header}>Tech Stack:</h5>
 
@@ -122,8 +127,8 @@ export default function Projects(props) {
                     <p>Password: password123</p>
                 </div>
 
-                <a href="https://james-moviesurfer-client.herokuapp.com/" target="_blank">Live App</a>
-                <a href="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client" target="_blank">Github Repo</a>
+                <a href="https://james-moviesurfer-client.herokuapp.com/" target="_blank" className={styles.button}>Live App</a>
+                <a href="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client" target="_blank" className={styles.button}>Github Repo</a>
 
             </section>
         </main>

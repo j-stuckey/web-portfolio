@@ -40,7 +40,7 @@
     width: 100%;
 }
 
-.card a {
+.button {
     display: block;
     justify-content: center;
     align-items: center;
