@@ -8,11 +8,11 @@ export default class NavBar extends React.Component {
                 <nav className={styles.navbar} id={"navbar"}>
                     
                     <Link to="/" className={styles.name} id={"name"}>
-                        James Stuckey
+                        Home
                     </Link>
                         
                     <Link to="/projects">Projects</Link>
-                    <Link to="/aboutme">About me</Link>
+                    {/* <Link to="/aboutme">About me</Link> */}
                     <Link to="/contact">Contact me</Link>
 
                 </nav>

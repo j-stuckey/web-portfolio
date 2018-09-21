@@ -7,7 +7,7 @@
 }
 
 .name {
-    color: red;
+    align-self: flex-start;
 }
 
 .navbar a {

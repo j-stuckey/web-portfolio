@@ -32,3 +32,9 @@
 .box a {
     margin: 20px;
 }
+
+@media only screen and (min-width: 1000px) {
+    .contact {
+        font-size: 3em;
+    }
+}
