@@ -10,15 +10,23 @@
     padding: 10px;
 }
 
-.container p {
-    /* padding: 2em; */
-}
-
 .text {
     /* background-color: rgb(58, 115, 119); */
     text-align: center;
+    width: 80%;
 }
 .portrait {
     max-height: 200px;
     border-radius: 100%;
+}
+
+.button {
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(58, 115, 119);
+}
+
+.button:hover {
+    background-color: red;
 }
