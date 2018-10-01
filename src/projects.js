@@ -20,7 +20,7 @@ export default function Projects(props) {
 
                 <div className={styles.divider}/>
                 <a href="https://hearbuds-client.firebaseapp.com/">
-                    <img src="https://github.com/thinkful-ei21/hearbuds-client/raw/master/screenshots/desktop-dashboard.png"/>
+                    <img src="https://github.com/j-stuckey/hearbuds-client/raw/master/screenshots/desktop-dashboard.png"/>
                 </a>
 
                 <h5 className={styles.header}>Tech Stack</h5>
@@ -42,7 +42,7 @@ export default function Projects(props) {
                     <p>Password: password123</p>
                 </div>
                 <a href={"https://hearbuds-client.firebaseapp.com/"} target="_blank" className={styles.button}>Live App</a>
-                <a href={"https://github.com/thinkful-ei21/hearbuds-client"} target="_blank" className={styles.button}>Github Repo</a>
+                <a href={"https://github.com/j-stuckey/hearbuds-client"} target="_blank" className={styles.button}>Github Repo</a>
             </section>
 
             <section className={styles.card}>
@@ -86,7 +86,7 @@ export default function Projects(props) {
                 </div>
 
                 <a href="https://spacedrep-client.herokuapp.com/" target="_blank" rel="noopener noreferrer" className={styles.button}>Live App</a>
-                <a href="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client" target="_blank" rel="noopener noreferrer" className={styles.button}>Github Repo</a>
+                <a href="https://github.com/j-stuckey/courtney-james-spacedRepitition-client" target="_blank" rel="noopener noreferrer" className={styles.button}>Github Repo</a>
             </section>
 
             <section className={styles.card}>
@@ -127,7 +127,7 @@ export default function Projects(props) {
                 </div>
 
                 <a href="https://james-moviesurfer-client.herokuapp.com/" target="_blank" rel="noopener noreferrer" className={styles.button}>Live App</a>
-                <a href="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client" target="_blank" rel="noopener noreferrer" className={styles.button}>Github Repo</a>
+                <a href="https://github.com/j-stuckey/james-capstone-client" target="_blank" rel="noopener noreferrer" className={styles.button}>Github Repo</a>
 
             </section>
         </main>
