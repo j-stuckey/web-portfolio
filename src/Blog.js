@@ -6,7 +6,7 @@ class Blog extends React.Component {
 	render() {
 		return (
 			<div className={styles.container}>
-				<h1>Hello, World.</h1>
+				<a href="/login">New Post</a>
 			</div>
 		);
 	}
