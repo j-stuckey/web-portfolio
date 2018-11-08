@@ -3,6 +3,7 @@ import NavBar from './nav';
 import Projects from './projects';
 import ContactForm from './contact';
 import LandingPage from './landing-page';
+import Blog from './Blog';
 import { Route } from 'react-router';
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ class App extends Component {
 					<Route exact path="/" component={LandingPage} />
 					<Route exact path="/projects" component={Projects} />
 					<Route exact path="/contact" component={ContactForm} />
+					<Route exact path="/blog" component={Blog} />
 				</React.Fragment>
 			</Router>
 		);
