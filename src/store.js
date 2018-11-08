@@ -5,5 +5,6 @@ import { blogReducer } from './reducers/blog';
 export const store = createStore(
 	combineReducers({
 		blog: blogReducer
-	})
+	}),
+	applyMiddleware(thunk)
 );
