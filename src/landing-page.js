@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles/landing-page.css';
-import portrait from './images/IMG_0727.jpg';
+import portrait from './images/portrait.jpg';
 import { Link } from 'react-router-dom';
 
 export default function LandingPage(props) {

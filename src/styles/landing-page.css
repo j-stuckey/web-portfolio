@@ -1,32 +1,32 @@
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    font-size: 1.1em;
-    padding: 0 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+	font-size: 1.1em;
+	padding: 0 20px;
 }
 .title {
-    padding: 10px;
+	padding: 10px;
 }
 
 .text {
-    /* background-color: rgb(58, 115, 119); */
-    text-align: center;
-    width: 80%;
+	/* background-color: rgb(58, 115, 119); */
+	text-align: center;
+	width: 80%;
 }
 .portrait {
-    max-height: 200px;
-    border-radius: 100%;
+	height: 300px;
+	border-radius: 3%;
 }
 
 .button {
-    padding: 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    background-color: rgb(58, 115, 119);
+	padding: 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: rgb(58, 115, 119);
 }
 
 .button:hover {
-    background-color: red;
+	background-color: red;
 }
