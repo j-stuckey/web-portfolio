@@ -4,6 +4,11 @@ import styles from './styles/login.css';
 export default class Login extends React.Component {
 	click(e) {
 		e.preventDefault();
+
+		const user = {
+			username: e.target.username.value,
+			password: e.target.password.value
+		};
 	}
 
 	render() {
