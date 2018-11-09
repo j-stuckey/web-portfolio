@@ -1,7 +1,9 @@
 import React from 'react';
 import styles from './styles/login.css';
+import { login } from './actions/auth';
+import { connect } from 'react-redux';
 
-export default class Login extends React.Component {
+export class Login extends React.Component {
 	click(e) {
 		e.preventDefault();
 
@@ -9,6 +11,8 @@ export default class Login extends React.Component {
 			username: e.target.username.value,
 			password: e.target.password.value
 		};
+
+		this.props.dispatch(login(user));
 	}
 
 	render() {
@@ -25,3 +29,9 @@ export default class Login extends React.Component {
 		);
 	}
 }
+
+const mapStateToProps = state => {
+	return {};
+};
+
+export default connect(mapStateToProps)(Login);
