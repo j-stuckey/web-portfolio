@@ -19,7 +19,7 @@ export class Login extends React.Component {
 
 	render() {
 		return (
-			<div class={styles.container}>
+			<div className={styles.container}>
 				<form onSubmit={e => this.click(e)} className={styles.form}>
 					<label htmlFor="username">Username</label>
 					<input

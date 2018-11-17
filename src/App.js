@@ -50,8 +50,8 @@ class App extends Component {
 					<Route exact path="/" component={LandingPage} />
 					<Route exact path="/projects" component={Projects} />
 					<Route exact path="/contact" component={ContactForm} />
-					<Route exact path="/blog" component={BlogForm} />
-					<Route exact path="/blog/new-post" component={NewPost} />
+					<Route exact path="/blog" component={Blog} />
+					<Route exact path="/blog/new-post" component={BlogForm} />
 					<Route exact path="/login" component={LoginForm} />
 				</React.Fragment>
 			</Router>

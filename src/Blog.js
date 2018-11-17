@@ -24,7 +24,12 @@ class Blog extends React.Component {
 				</Link>
 
 				{this.props.loggedIn ? (
-					<button onClick={e => this.logOut()}>Log out</button>
+					<button
+						onClick={e => this.logOut()}
+						className={styles.logout}
+					>
+						Log out
+					</button>
 				) : null}
 			</div>
 		);
