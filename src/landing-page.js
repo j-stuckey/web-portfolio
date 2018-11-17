@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles/landing-page.css';
+import styles from './styles/landing-page.module.css';
 import portrait from './images/portrait.jpg';
 import { Link } from 'react-router-dom';
 

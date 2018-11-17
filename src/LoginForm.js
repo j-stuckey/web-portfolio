@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles/login.css';
+import styles from './styles/login.module.css';
 import { login } from './actions/auth';
 import { connect } from 'react-redux';
 
@@ -19,19 +19,25 @@ export class Login extends React.Component {
 
 	render() {
 		return (
-			<form onSubmit={e => this.click(e)} className={styles.container}>
-				<label htmlFor="username">Username</label>
-				<input type="text" className={styles.input} name="username" />
+			<div class={styles.container}>
+				<form onSubmit={e => this.click(e)} className={styles.form}>
+					<label htmlFor="username">Username</label>
+					<input
+						type="text"
+						className={styles.input}
+						name="username"
+					/>
 
-				<label htmlFor="password">Password</label>
-				<input
-					type="password"
-					className={styles.input}
-					name="password"
-				/>
+					<label htmlFor="password">Password</label>
+					<input
+						type="password"
+						className={styles.input}
+						name="password"
+					/>
 
-				<button className={styles.button}>Log In</button>
-			</form>
+					<button className={styles.button}>Log In</button>
+				</form>
+			</div>
 		);
 	}
 }

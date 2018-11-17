@@ -5,7 +5,7 @@ import { clearAuthToken } from './local-storage';
 import { Redirect } from 'react-router-dom';
 
 import BlogForm from './Blog-Form';
-import './styles/new-post.css';
+import './styles/new-post.module.css';
 
 export class NewPost extends React.Component {
 	logOut() {

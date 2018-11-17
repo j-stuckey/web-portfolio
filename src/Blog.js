@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import styles from './styles/blog.css';
+import styles from './styles/blog.module.css';
 
 class Blog extends React.Component {
 	render() {
