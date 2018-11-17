@@ -2,9 +2,16 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { getBlog } from './actions/blog';
+import { clearAuth } from './actions/auth';
+import { clearAuthToken } from './local-storage';
 import styles from './styles/blog.module.css';
 
 class Blog extends React.Component {
+	logOut() {
+		this.props.dispatch(clearAuth());
+		clearAuthToken();
+	}
+
 	componentDidMount() {
 		this.props.dispatch(getBlog());
 	}
@@ -15,6 +22,10 @@ class Blog extends React.Component {
 				<Link to={this.props.loggedIn ? '/blog/new-post' : '/login'}>
 					New Post
 				</Link>
+
+				{this.props.loggedIn ? (
+					<button onClick={e => this.logOut()}>Log out</button>
+				) : null}
 			</div>
 		);
 	}

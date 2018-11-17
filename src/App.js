@@ -10,6 +10,7 @@ import LoginForm from './LoginForm';
 import { Route } from 'react-router';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { refreshAuthToken } from './actions/auth';
+import BlogForm from './Blog-Form';
 
 class App extends Component {
 	componentDidUpdate(prevProps) {
@@ -49,7 +50,7 @@ class App extends Component {
 					<Route exact path="/" component={LandingPage} />
 					<Route exact path="/projects" component={Projects} />
 					<Route exact path="/contact" component={ContactForm} />
-					<Route exact path="/blog" component={Blog} />
+					<Route exact path="/blog" component={BlogForm} />
 					<Route exact path="/blog/new-post" component={NewPost} />
 					<Route exact path="/login" component={LoginForm} />
 				</React.Fragment>
