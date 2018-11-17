@@ -12,7 +12,9 @@ export class Login extends React.Component {
 			password: e.target.password.value
 		};
 
-		this.props.dispatch(login(user));
+		this.props.dispatch(login(user)).then(() => {
+			this.props.history.push('/blog');
+		});
 	}
 
 	render() {
@@ -22,7 +24,11 @@ export class Login extends React.Component {
 				<input type="text" className={styles.input} name="username" />
 
 				<label htmlFor="password">Password</label>
-				<input type="text" className={styles.input} name="password" />
+				<input
+					type="password"
+					className={styles.input}
+					name="password"
+				/>
 
 				<button className={styles.button}>Log In</button>
 			</form>

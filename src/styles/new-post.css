@@ -1,0 +1,15 @@
+.create-new-post {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	width: 600px;
+}
+
+.quill {
+	width: 600px;
+	height: 300px;
+	margin-bottom: 50px;
+	font-weight: normal;
+}

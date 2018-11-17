@@ -41,16 +41,17 @@ const storeAuthTokenInfo = (authToken, dispatch) => {
 	saveAuthToken(authToken);
 };
 // passing in history from this.props.history
-export const login = (username, password, history) => dispatch => {
+export const login = (user, history) => dispatch => {
 	dispatch(authRequest());
+
 	return fetch(`${API_BASE_URL}/auth/login`, {
 		method: 'POST',
 		headers: {
 			'content-type': 'application/json'
 		},
 		body: JSON.stringify({
-			username,
-			password
+			username: user.username,
+			password: user.password
 		})
 	})
 		.then(res => normalizeResponseErrors(res))
