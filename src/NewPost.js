@@ -21,14 +21,11 @@ export class NewPost extends React.Component {
 		return (
 			<div>
 				<div>
-					<h3>New Post</h3>
 					{this.props.loggedIn ? (
 						<button onClick={e => this.logOut()}>Log out</button>
 					) : null}
 
 					<BlogForm />
-
-					<a href="/blog">Back</a>
 				</div>
 			</div>
 		);

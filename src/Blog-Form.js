@@ -1,8 +1,7 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
 
-import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
+import styles from './styles/blogform.module.css';
 
 export default class BlogForm extends React.Component {
 	constructor(props) {
@@ -38,14 +37,25 @@ export default class BlogForm extends React.Component {
 		}
 
 		return (
-			<form onSubmit={e => this.submit(e)}>
+			<form onSubmit={e => this.submit(e)} className={styles.form}>
+				<h3>New Post</h3>
 				<label htmlFor="title">Title</label>
-				<input name="title" type="text" ref={this.title} />
+				<input
+					name="title"
+					type="text"
+					ref={this.title}
+					className={styles.title}
+				/>
 
 				<label htmlFor="content">Content</label>
-				<textarea name="content" ref={this.content} />
+				<textarea
+					name="content"
+					ref={this.content}
+					className={styles.content}
+				/>
 
 				<button type="submit">Submit</button>
+				<a href="/blog">Back</a>
 			</form>
 		);
 	}
