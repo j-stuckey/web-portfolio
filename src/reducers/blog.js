@@ -1,7 +1,10 @@
 import {
 	GET_BLOG_SUCCESS,
 	GET_BLOG_REQUEST,
-	GET_BLOG_ERROR
+	GET_BLOG_ERROR,
+	SUBMIT_BLOG_POST_REQUEST,
+	SUBMIT_BLOG_POST_SUCCESS,
+	SUBMIT_BLOG_POST_ERROR
 } from '../actions/blog';
 
 const initialState = {
@@ -22,7 +25,7 @@ export const blogReducer = (state = initialState, action) => {
 			return {
 				...state,
 				loading: false,
-				posts: action.blog
+				posts: [...action.blog]
 			};
 
 		case GET_BLOG_ERROR:
@@ -31,6 +34,25 @@ export const blogReducer = (state = initialState, action) => {
 				loading: false,
 				error: action.err
 			};
+
+		case SUBMIT_BLOG_POST_REQUEST:
+			return {
+				...state,
+				loading: true
+			};
+
+		case SUBMIT_BLOG_POST_SUCCESS:
+			return {
+				loading: false,
+				error: null
+			};
+
+		case SUBMIT_BLOG_POST_ERROR:
+			return {
+				loading: false,
+				error: action.err
+			};
+
 		default:
 			return state;
 	}

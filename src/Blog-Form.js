@@ -2,8 +2,14 @@ import React from 'react';
 import { Redirect } from 'react-router-dom';
 
 import styles from './styles/blogform.module.css';
+import { connect } from 'react-redux';
+import { submitBlogPost } from './actions/blog';
 
-export default class BlogForm extends React.Component {
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
+import { string } from 'prop-types';
+
+export class BlogForm extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -20,14 +26,22 @@ export default class BlogForm extends React.Component {
 
 		// grabbing the post content using react refs
 		// wonder if there's a better way to do this.
+
 		const post = {
 			title: this.title.current.value,
 			content: this.content.current.value
 		};
 
-		console.log(post);
 		this.setState({
 			submitted: true
+		});
+
+		this.props.dispatch(submitBlogPost(post));
+	}
+
+	handleChange(value) {
+		this.setState({
+			text: value
 		});
 	}
 
@@ -60,3 +74,9 @@ export default class BlogForm extends React.Component {
 		);
 	}
 }
+
+export const mapStateToProps = state => {
+	return {};
+};
+
+export default connect(mapStateToProps)(BlogForm);

@@ -2,11 +2,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-flow: column;
 	padding: 20px 10px;
 }
 
 .logout {
-	position: fixed;
+	position: absolute;
 	right: 20px;
 
 	color: white;
@@ -14,10 +15,28 @@
 	padding: 10px 14px;
 	border: none;
 	border-radius: 3px;
+	margin-top: 20px;
 }
 
 .logout:hover {
 	background-color: blue;
+}
+
+.post {
+	width: 60%;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+}
+
+.spacer {
+	justify-content: center;
+	align-items: center;
+	border: 1px solid white;
+	width: 50%;
+	margin: 50px auto;
 }
 
 /* .form {

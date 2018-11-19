@@ -76,7 +76,7 @@ export default function Projects(props) {
 				</p>
 
 				<div className={styles.divider} />
-				<a href="https://spacedrep-client.herokuapp.com/">
+				<a href="https://learn-emojis.herokuapp.com/">
 					<img
 						src="https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client/blob/master/src/images/readmeImgs/emoji-desktop.png?raw=true"
 						alt="learn emojis"

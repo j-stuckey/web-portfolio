@@ -18,3 +18,10 @@
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
+
+.editor {
+	/* width: 800px; */
+	height: 800px;
+	/* font: 300px; */
+	color: black;
+}
