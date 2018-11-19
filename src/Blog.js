@@ -5,7 +5,6 @@ import { getBlog, deleteBlogPost } from './actions/blog';
 import { clearAuth } from './actions/auth';
 import { clearAuthToken } from './local-storage';
 import styles from './styles/blog.module.css';
-import { DeleteModal } from './Delete-Modal';
 
 class Blog extends React.Component {
 	logOut() {
