@@ -16,9 +16,15 @@ class Blog extends React.Component {
 		this.props.dispatch(getBlog());
 	}
 
-	onDelete(id) {
-		this.props.dispatch(deleteBlogPost(id));
-		this.props.dispatch(getBlog());
+	onDelete(id, post) {
+		if (
+			window.confirm(
+				`Are you sure you want to delete the post "${post.title}"`
+			)
+		) {
+			this.props.dispatch(deleteBlogPost(id));
+			this.props.dispatch(getBlog());
+		}
 	}
 
 	render() {
@@ -36,7 +42,9 @@ class Blog extends React.Component {
 						{this.props.loggedIn ? (
 							<button
 								value={post.id}
-								onClick={e => this.onDelete(e.target.value)}
+								onClick={e =>
+									this.onDelete(e.target.value, post)
+								}
 							>
 								Delete
 							</button>

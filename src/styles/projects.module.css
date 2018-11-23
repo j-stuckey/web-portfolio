@@ -1,105 +1,104 @@
 .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
 }
 
 .card {
-    flex-direction: row;
-    max-width: 1000px;
-    margin: 20px auto;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 2px solid white;
-    width: 80%;
+	flex-direction: row;
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 2px solid white;
+	width: 80%;
 }
 
 .title {
-    display: flex;
-    justify-content: flex-start;
-    margin: 0;
-    font-size: 2em;
+	display: flex;
+	justify-content: flex-start;
+	margin: 0;
+	font-size: 2em;
 }
 
 .role {
-    display: flex;
-    justify-content: flex-start;
-    font-style: italic;
-    font-size: 1.2em;
-    font-weight: 700;
-    margin: 0 auto;
+	display: flex;
+	justify-content: flex-start;
+	font-style: italic;
+	font-size: 1.2em;
+	font-weight: 700;
+	margin: 0 auto;
 }
 
 .card img {
-    justify-content: center;
-    align-content: center;
-    padding: 5%;
-    width: 100%;
+	justify-content: center;
+	align-content: center;
+	padding: 5%;
+	width: 100%;
 }
 
 .button {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
-    font-size: 0.8em;
-    padding: 14px 15px;
-    margin: 10px auto 10px auto;
-    border: 1px solid black;
-    background: rgb(58, 115, 119);
-    border-radius: 3px;
-    text-decoration: none;
-    text-align: center;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 25%;
+	font-size: 0.8em;
+	padding: 14px 15px;
+	margin: 10px auto 10px auto;
+	border: 1px solid black;
+	background: rgb(58, 115, 119);
+	border-radius: 3px;
+	text-decoration: none;
+	text-align: center;
 }
 
 .card a:hover {
-    font-style: italic;
-    /* box-shadow: 2px 2px 10px gray; */
+	font-style: italic;
+	/* box-shadow: 2px 2px 10px gray; */
 }
 
 .card p {
-    margin: 20px 10px;
-    text-align: center;
+	margin: 20px 10px;
+	text-align: center;
 }
 
 .demo {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    border: 1px solid white;
-    border-radius: 10px;
-    margin: 20px auto;
-    padding: 20px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin: 20px auto;
+	padding: 20px;
 }
 
-
 .header {
-    background-color: rgb(58, 115, 119);
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 20px;
+	background-color: rgb(58, 115, 119);
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 20px;
 }
 
 .tech {
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
-    margin: 10px auto;
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+	margin: 10px auto;
 }
 
 .tech li {
-    margin: 10px 20px;
+	margin: 10px 20px;
 }
 
 .italic {
-    font-style: italic;
+	font-style: italic;
 }
 
 .divider {
-    border: 1px solid white;
-    width: 50%;
-    margin: 0 auto;
+	border: 1px solid white;
+	width: 50%;
+	margin: 0 auto;
 }

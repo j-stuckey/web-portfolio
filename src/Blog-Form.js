@@ -47,7 +47,7 @@ export class BlogForm extends React.Component {
 		}
 	};
 
-	submit(e, content) {
+	submit(e) {
 		e.preventDefault();
 
 		// grabbing the post content using react refs
@@ -69,11 +69,7 @@ export class BlogForm extends React.Component {
 
 		return (
 			<React.Fragment>
-				<form
-					onSubmit={e => this.submit(e, this.content)}
-					// onSubmit={() => this.onChange()}
-					className={styles.form}
-				>
+				<form onSubmit={e => this.submit(e)} className={styles.form}>
 					<h3>New Post</h3>
 					<label htmlFor="title">Title</label>
 					<input
@@ -84,17 +80,11 @@ export class BlogForm extends React.Component {
 					/>
 
 					<label htmlFor="content">Content</label>
-					{/* <textarea
-						name="content"
-						// ref={this.content}
-						className={styles.content}
-					/> */}
 
 					<RichTextEditor
 						className={styles.editor}
 						value={this.state.text}
 						onChange={this.onChange}
-						ref={this.content}
 					/>
 					<button type="submit">Submit</button>
 					<a href="/blog">Back</a>
