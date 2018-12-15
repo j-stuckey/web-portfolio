@@ -11,13 +11,7 @@ export class NewPost extends React.Component {
 			return <Redirect to="/blog" />;
 		}
 
-		return (
-			<div>
-				<div>
-					<BlogForm />
-				</div>
-			</div>
-		);
+		return <BlogForm />;
 	}
 }
 

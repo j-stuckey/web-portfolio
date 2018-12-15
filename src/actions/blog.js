@@ -49,12 +49,16 @@ export const submitBlogPostError = err => ({
 	err
 });
 
-export const submitBlogPost = post => dispatch => {
+export const submitBlogPost = post => (dispatch, getState) => {
+	const authToken = getState().auth.authToken;
+
+	console.log(authToken);
 	dispatch(submitBlogPostRequest());
 	return fetch(`${API_BASE_URL}/blog`, {
 		method: 'POST',
 		headers: {
-			'content-type': 'application/json'
+			'content-type': 'application/json',
+			Authorization: `Bearer ${authToken}`
 		},
 		body: JSON.stringify(post)
 	})

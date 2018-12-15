@@ -38,7 +38,6 @@ export class BlogForm extends React.Component {
 
 		this.setState({ post });
 
-		console.log(post);
 		if (this.props.onChange) {
 			// Send the changes up to the parent component as an HTML string.
 			// This is here to demonstrate using `.toString()` but in a real app it
