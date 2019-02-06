@@ -1,20 +1,25 @@
 .container {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: center;
+	margin: 50px;
+}
+
+.container a {
+	width: 50%;
 }
 
 .card {
-	flex-direction: row;
-	max-width: 1000px;
-	margin: 20px auto;
-	padding: 20px;
+	max-width: 40%;
 	align-items: center;
 	justify-content: center;
 	border-bottom: 2px solid white;
-	width: 80%;
+}
+
+.img {
+	justify-content: center;
+	align-content: center;
+	width: 100%;
 }
 
 .title {
@@ -24,21 +29,6 @@
 	font-size: 2em;
 }
 
-.role {
-	display: flex;
-	justify-content: flex-start;
-	font-style: italic;
-	font-size: 1.2em;
-	font-weight: 700;
-	margin: 0 auto;
-}
-
-.card img {
-	justify-content: center;
-	align-content: center;
-	padding: 5%;
-	width: 100%;
-}
 
 .button {
 	display: block;
@@ -63,16 +53,7 @@
 .card p {
 	margin: 20px 10px;
 	text-align: center;
-}
-
-.demo {
-	display: flex;
-	flex-flow: column;
-	justify-content: center;
-	border: 1px solid white;
-	border-radius: 10px;
-	margin: 20px auto;
-	padding: 20px;
+	float: left;
 }
 
 .header {
@@ -87,18 +68,4 @@
 	justify-content: center;
 	flex-flow: wrap;
 	margin: 10px auto;
-}
-
-.tech li {
-	margin: 10px 20px;
-}
-
-.italic {
-	font-style: italic;
-}
-
-.divider {
-	border: 1px solid white;
-	width: 50%;
-	margin: 0 auto;
 }
