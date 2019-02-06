@@ -1,5 +1,3 @@
-const movieSurfer = {};
-
 const projects = {
 	hearbuds: {
 		title: 'Hearbuds',
@@ -19,8 +17,7 @@ const projects = {
 			client: 'https://github.com/j-stuckey/hearbuds-client',
 			server: 'https://github.com/thinkful-ei21/hearbuds-server'
 		},
-		// techStack: ['HTML5', 'CSS3']
-		techStack: `HTML5, CSS3, React, Redux, Node.js, Express, MongoDB, GraphQL, JSON Web Token`
+		techStack: `HTML5, CSS3, React, Redux, Node.js, Express, MongoDB, GraphQL, JWT`
 	},
 	learnEmojis: {
 		title: 'Learn Emojis',
@@ -30,9 +27,9 @@ const projects = {
 		},
 		description: `Can't find the right words? Use Emojis instead! This app 
 					improves your emoji vocabulary so that you can write less
-					and say more! This app was built originally to help us
-					understand a learning technique called
-					Spaced Repetition and how to implement the algorithm.`,
+					and say more! This app was built originally to help me
+					understand a learning technique called Spaced Repetition 
+					and how to implement the algorithm.`,
 		links: {
 			live: 'https://learn-emojis.herokuapp.com/',
 			client: 'https://github.com/j-stuckey/courtney-james-spacedRepitition-client',
@@ -46,16 +43,15 @@ const projects = {
 			src: 'https://github.com/thinkful-ei21/james-capstone-client/raw/master/images/search.png',
 			alt: 'Movie Surfer'
 		},
-		description: `Can't find the right words? Use Emojis instead! This app 
-					improves your emoji vocabulary so that you can write less
-					and say more! This app was built originally to help us
-					understand a learning technique called
-					Spaced Repetition and how to implement the algorithm.`,
+		description: `My first full stack application built using React.
+					Utilizes the OMDb API, allowing users to search for movies
+					and TV shows and sort them into their own categories. `,
 		links: {
 			live: 'https://james-moviesurfer-client.herokuapp.com/',
 			client: 'https://github.com/j-stuckey/james-capstone-client',
 			server: 'https://github.com/thinkful-ei21/james-capstone-server'
-		}
+		},
+		techStack: `HTML5, CSS3, React, Redux, Node.js, Express, MongoDB, Passport.js, Bycryptjs, JWT`
 
 	}
 };

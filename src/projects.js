@@ -1,14 +1,17 @@
 import React from 'react';
 import styles from './index.module.css';
 import projects from './project-data';
-import ProjectLeft from './ProjectLeft';
+import Project from './Project';
 
 export default function Projects(props) {
+	// projects will default to left side if `side` prop is not given
 	return (
 		<main className={styles.container}>
-			<ProjectLeft data={projects.hearbuds} />
+			<Project project={projects.hearbuds} />
 
-			<ProjectLeft data={projects.learnEmojis} />
+			<Project project={projects.learnEmojis} side="right"/>
+
+			<Project project={projects.movieSurfer} />
 		</main>
 	);
 }

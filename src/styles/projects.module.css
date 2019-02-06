@@ -16,6 +16,10 @@
 	border-bottom: 2px solid white;
 }
 
+.card p {
+	padding: 30px;
+}
+
 .img {
 	justify-content: center;
 	align-content: center;
