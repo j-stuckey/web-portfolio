@@ -1,11 +1,12 @@
-.container {
+.projectContainer {
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
+	flex-flow: row wrap;
 	margin: 50px;
 }
 
-.container a {
+.anchor {
 	width: 50%;
 }
 
@@ -28,13 +29,13 @@
 }
 
 .img:hover {
-	transform: scale(.97);
-	box-shadow: 0 0 10px #ccc;
+	transform: scale(.96);
+	box-shadow: 0 0 15px rgb(123, 187, 212);
 }
 
 .title {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	margin: 0;
 	font-size: 2em;
 }
@@ -78,4 +79,10 @@
 	justify-content: center;
 	flex-flow: wrap;
 	margin: 10px auto;
+}
+
+@media only screen and (max-width: 600px) {
+	.projectContainer {
+		flex-direction: column;
+	}
 }

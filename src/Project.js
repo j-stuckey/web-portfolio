@@ -8,8 +8,8 @@ export default function Project(props) {
 
 	if (props.side === 'left') {
 		return (
-			<div className={styles.container}>
-				<a href={project.links.live}>
+			<div className={styles.projectContainer}>
+				<a className={styles.anchor} href={project.links.live}>
 					<img
 						className={styles.img}
 						src={project.img.src}
@@ -29,7 +29,7 @@ export default function Project(props) {
 		);
 	} else if (props.side === 'right') {
 		return (
-			<div className={styles.container}>
+			<div className={styles.projectContainer}>
 				<section className={styles.card}>
 					<header className={styles.header}>
 						<h3 className={styles.title}>{project.title}</h3>
@@ -38,7 +38,7 @@ export default function Project(props) {
 
 					<h4>Tech stack: {project.techStack}</h4>
 				</section>
-				<a href={project.links.live}>
+				<a className={styles.anchor} href={project.links.live}>
 					<img
 						className={styles.img}
 						src={project.img.src}
@@ -52,7 +52,7 @@ export default function Project(props) {
 
 Project.defaultProps = {
 	side: 'left'
-}
+};
 
 Project.propTypes = {
 	// project must be on object with this shape
