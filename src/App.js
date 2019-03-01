@@ -30,7 +30,7 @@ class App extends Component {
         this.refreshInterval = setInterval(
             () => this.props.dispatch(refreshAuthToken()),
             // 15 minute refresh period
-            15 * 60 * 1000
+            10 * 60 * 1000
         );
     }
 
