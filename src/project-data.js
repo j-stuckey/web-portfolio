@@ -47,7 +47,7 @@ const projects = {
 					Utilizes the OMDb API, allowing users to search for movies
 					and TV shows and sort them into their own categories. `,
 		links: {
-			live: 'https://dev-moviesurfer.herokuapp.com/',
+			live: 'https://qa-moviesurfer.herokuapp.com/',
 			client: 'https://github.com/j-stuckey/james-capstone-client',
 			server: 'https://github.com/thinkful-ei21/james-capstone-server'
 		},
