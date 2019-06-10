@@ -1,9 +1,27 @@
-version: '3'
+version: '3.4'
 services:
-    portfolio:
-        build: .
-        command: npm start
-        ports:
-            - '3000:3000'
-        volumes:
-            - .:/usr/src/app
+  ui:
+    build:
+      context: .
+      target: base
+    container_name: web_portfolio
+    image: web_portfolio
+    command: npm start
+    ports:
+    - '3000:3000'
+    volumes:
+    - ${PWD}:/usr/src/app
+    - /usr/src/app/node_modules
+
+  prod:
+    build:
+      context: .
+      target: production
+    container_name: expenses_prod
+    image: expenses_prod
+    command: npx serve -p 3000 -s build
+    ports:
+    - '80:3000'
+    volumes:
+    - ${PWD}:/usr/src/app
+    - /usr/src/app/node_modules
